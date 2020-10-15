@@ -233,6 +233,8 @@ namespace praktika6
             }
 
             student.AddExams(new Exam("Math", 4, new DateTime(2019, 3, 2)),new Exam("Informatics", 5, new DateTime(2019, 6, 10)),new Exam("Information Security", 5, new DateTime(2018, 1, 18)), new Exam("History", 3, new DateTime(2019, 6, 20)), new Exam("English language", 5, new DateTime(2018, 5, 31)));
+            Console.WriteLine("");
+            Console.WriteLine(student.ToShortString());
         }
     }
 }
